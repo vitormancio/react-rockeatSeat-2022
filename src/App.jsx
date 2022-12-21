@@ -1,7 +1,6 @@
-function App() {
-
+function App(props) {
   return (
-    <h1>Hello World</h1>
+    <h1>Hello World meu nome é {props.name} e programo em {props.stack}</h1>
   )
 }
 
